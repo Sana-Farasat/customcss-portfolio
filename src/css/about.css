@@ -1,0 +1,326 @@
+.about-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.about-me {
+  text-align: center;
+  margin: 3% auto;
+}
+
+.head {
+  color: yellow;
+  font-size: 4em;
+  padding: 2%;
+}
+
+.para {
+  color: #b00020;
+  font-size: 2em;
+  padding: 2%;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid yellow;
+  padding: 3%;
+  margin: 3%;
+}
+
+.project-para {
+  color: rgba(0, 0, 255, 0.87);
+  font-size: 2.2em;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+span {
+  color: yellow;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.project-div {
+  height: auto;
+  width: auto;
+  border: 2px solid rgb(221, 216, 216);
+}
+
+.github-npm-div {
+  text-align: center;
+  font-size: 2.3em;
+  padding-top: 2%;
+  color: #b00020;
+  margin: 3% auto;
+  border: 2px solid lightblue;
+  background-color: lightblue;
+  height: 3%;
+  width: 50%;
+  max-width: 600px;
+  border-radius: 2%;
+  transition: font-weight 0.3s ease; /* Smooth transition for font weight */
+}
+
+.github-npm-div:hover {
+  font-weight: bold;
+}
+
+.icons2 {
+  width: 95%;
+  margin: 3% auto;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
+
+.icons2:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  background-color: rgba(172, 255, 47, 0.692);
+}
+
+.icons2-h2 {
+  font-size: 1.3em;
+  padding: 4%;
+}
+
+.lang-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  font-size: 1.3em;
+  margin-bottom: 3%;
+}
+
+.main-cards {
+  text-align: center;
+  font-size: 2em;
+  color: #b00020;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.cards-head {
+  font-size: 2.3em;
+  font-weight: 700;
+}
+
+.card-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.cards {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cards:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.image {
+  max-width: 90%;
+  margin: 0 auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 6px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 640px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid yellow;
+    padding: 3%;
+    margin: 3% 3%;
+  }
+
+  .project-para {
+    font-size: 1.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .github-npm-div {
+    height: 3%;
+    max-width: 90%;
+    font-size: 1em;
+    margin: 3% auto;
+    padding: auto;
+  }
+
+  .icons2-h2 {
+    font-size: 1em;
+    padding: 4% auto;
+    margin: auto;
+  }
+
+  .cards-head {
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 700;
+    padding: 2px;
+    margin-bottom: 4%;
+  }
+  .head {
+    font-size: 3em;
+    padding: 1%;
+  }
+
+  .para {
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 1%;
+  }
+
+  .icons2 {
+    margin: 10% auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-para {
+    font-size: 1.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .project-para span {
+    font-size: 1.3em;
+  }
+
+  .github-npm-div {
+    height: 3%;
+    width: 60%;
+    font-size: large;
+    margin: 3% auto;
+    padding: auto;
+  }
+
+  .icons2-h2 {
+    font-size: 1em;
+    padding: 4% auto;
+    margin: auto;
+  }
+
+  .card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 4%;
+    padding: auto;
+  }
+  .image {
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  .icons2 {
+    margin: 6% auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project-para span {
+    font-size: 1.3em;
+  }
+
+  .github-npm-div {
+    height: 3%;
+    width: 60%;
+    font-size: x-large;
+    margin: 3% auto;
+    padding: auto;
+  }
+
+  .icons2-h2 {
+    font-size: 1em;
+    padding: 3% auto;
+    margin: auto;
+  }
+
+  .icons2 {
+    margin: 5% auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-div {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cards {
+    flex: 1; /* Make cards take equal space */
+    margin-right: 16px;
+  }
+
+  .card1:last-child {
+    margin-right: 0; /* Remove right margin on the last card */
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-div {
+    gap: 24px;
+  }
+
+  .cards {
+    padding: 24px;
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-div {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cards {
+    flex: 1; /* Make cards take equal space */
+    margin-right: 16px;
+  }
+
+  .card1:last-child {
+    margin-right: 0; /* Remove right margin on the last card */
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-div {
+    gap: 24px;
+  }
+
+  .cards {
+    padding: 24px;
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,72 @@
+.footer-container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-div {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+
+  align-items: center;
+  padding: 20px;
+}
+
+.p1,
+.p2 {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+  color: #b00020;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.p1 {
+  padding-top: 20px;
+}
+
+.p2 {
+  padding-bottom: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .p1,
+  .p2 {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    padding-left: 10%; /* Reduced padding to make the text fit better */
+    padding-right: 10%; /* Reduced padding */
+  }
+
+  /* Adjust the footer's vertical spacing */
+  .footer-div {
+    padding: 15px;
+  }
+
+  .p1 {
+    padding-top: 10px; /* Less padding at the top for small screens */
+  }
+
+  .p2 {
+    padding-bottom: 10px; /* Less padding at the bottom for small screens */
+  }
+}
+
+/* For very small screens like 300px to 400px wide */
+@media (max-width: 400px) {
+  .p1,
+  .p2 {
+    font-size: 0.9rem; /* Smaller font for very small screens */
+    padding-left: 5%; /* Minimal padding for small screens */
+    padding-right: 5%; /* Minimal padding */
+  }
+
+  .footer-div {
+    padding: 10px; /* Reduce padding for very small screens */
+  }
+}

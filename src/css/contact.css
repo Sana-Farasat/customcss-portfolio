@@ -1,0 +1,171 @@
+.contact-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-heading {
+  text-align: center;
+  color: yellow;
+  margin-top: 4%;
+  font-size: 5em;
+}
+
+.contact-para {
+  color: #b00020;
+  text-align: center;
+  margin: 4% 0;
+  font-size: 3em;
+}
+
+.resume-button {
+  text-align: center;
+}
+
+.resume-button button {
+  margin: 2% 0;
+  padding: 10px 30px;
+  background-color: #b00020;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  gap: 1em;
+  margin: 4% 0;
+}
+
+.details {
+  height: auto;
+  margin: 5% auto;
+  border: 2px solid #111;
+  border-radius: 2%;
+  background-color: rgb(224, 224, 215);
+  width: 60%;
+  max-width: 600px; /* Keeps it responsive */
+  padding: 20px;
+}
+
+legend {
+  color: black;
+  font-size: 1.5em; /* Slightly smaller for mobile */
+  padding: 2px 10px;
+  margin-left: 5%;
+  display: block;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 10px 5%;
+  width: 90%; /* Makes the inputs stretch across the container */
+  border-radius: 4%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  color: #999;
+  opacity: 1;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.submit-button button {
+  margin: 2% 0;
+  padding: 10px 30px;
+  background-color: #b00020;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+button {
+  border: none;
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background and scaling */
+}
+
+button:hover {
+  background-color: lightseagreen;
+  transform: scale(1.1); /* Slightly increase the size on hover */
+}
+
+@media screen and (max-width: 640px) {
+  .contact-heading {
+    font-size: 3.5em;
+  }
+
+  .contact-para {
+    font-size: 1.5em;
+  }
+
+  .icons {
+    font-size: 2em;
+    gap: 0.8em;
+  }
+
+  .details {
+    width: 95%;
+    padding: 5px;
+  }
+
+  legend {
+    font-size: 1.1em;
+    margin-left: 0;
+  }
+
+  input,
+  textarea {
+    margin: 6px 5%;
+    font-size: 12px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-heading {
+    font-size: 4em;
+  }
+
+  .contact-para {
+    font-size: 2em;
+  }
+
+  .icons {
+    font-size: 2.5em;
+    gap: 1em;
+  }
+
+  .details {
+    width: 90%; /* Makes form container wider on smaller devices */
+    padding: 10px;
+  }
+
+  legend {
+    font-size: 1.2em; /* Adjust legend size for small screens */
+    margin-left: 0; /* Remove margin */
+  }
+
+  input,
+  textarea {
+    margin: 8px 5%;
+    font-size: 14px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 14px; /* Adjust placeholder size for mobile */
+  }
+}
+

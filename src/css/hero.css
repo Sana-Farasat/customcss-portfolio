@@ -1,0 +1,115 @@
+.hero-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+}
+
+.hero-div {
+  width: 80%;
+  margin: 4% auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.image-div {
+  height: 100%;
+  width: 100%;
+  max-width: 400px; /* Restrict the image div width */
+  margin-bottom: 20px; /* Add margin for better spacing on smaller devices */
+}
+
+.image-div Image {
+  transition: transform 20s ease, border-radius 20s ease; /* Smooth transition for rotation */
+  width: 100%; /* Make the image responsive */
+  height: auto;
+}
+
+Image:hover {
+  transform: rotate(360deg); /* Rotate the image on hover */
+  border-radius: 10%; /* Optionally change the border-radius on hover for effect */
+}
+.content-div {
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  color: yellow;
+  font-size: 4em;
+  text-align: left;
+  margin-top: 2%;
+}
+
+.para {
+  color: #b00020;
+  font-size: 2em;
+  text-align: left;
+  font-weight: semi-bold;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 1024px) {
+  .hero-div {
+    width: 90%; /* Increase width on tablets */
+    gap: 20px;
+  }
+
+  .image-div {
+    max-width: 350px;
+  }
+
+  .heading {
+    font-size: 3em;
+  }
+
+  .para {
+    font-size: 1.5em;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-div {
+      max-width: 300px;
+    }
+
+    .heading {
+      font-size: 2.5em;
+      text-align: center;
+    }
+
+    .para {
+      font-size: 1.2em;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .hero-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .image-div {
+      max-width: 250px;
+      text-align: center;
+    }
+
+    .heading {
+      font-size: 2em;
+      text-align: center;
+    }
+
+    .para {
+      font-size: 1em;
+      text-align: center;
+    }
+  }
+}
