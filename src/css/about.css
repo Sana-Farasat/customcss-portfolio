@@ -21,8 +21,11 @@
 .para {
   color: #b00020;
   font-size: 2em;
-  padding: 2%;
-  text-align: center;
+  padding: 2% 7%;
+  text-align: justify;
+  text-justify: inter-word; /* Ensures proper justification for the last line */
+  widows: 2; /* Ensures a minimum of 2 words on the last line */
+  line-height: 1.5; /* Adds better readability between lines */
 }
 
 .project {

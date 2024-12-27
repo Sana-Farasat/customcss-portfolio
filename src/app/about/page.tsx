@@ -20,13 +20,11 @@ function About() {
         <p className="para">
           {" "}
           I am Front-end Developer , Back-end Develper, a Full-Stack Developer!{" "}
-          <br /> Currently learning to build highly scalable applications to
-          help freelancers <br />
-          to grow their buissness. <br />
-          For making fast and reliable web applications learning to build <br />
-          websites on the framework of Next.js, <br />
-          By using typescript which is the superset of Javascript <br />
-          With the framework of tailwand css!
+          Currently learning to build highly scalable applications to help
+          freelancers to grow their buissness. For making fast and reliable web
+          applications learning to build websites on the framework of Next.js,
+          By using typescript which is the superset of Javascript With the
+          framework of tailwand css!
         </p>
       </div>
 

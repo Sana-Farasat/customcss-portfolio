@@ -5,7 +5,10 @@ import Hero from "@/components/hero";
 
 export default function Home() {
   return (
-    <main className="container">
+    <main
+      className="container"
+      style={{ maxWidth: "1500px", margin: "0 auto" }}
+    >
       <div>
         <Hero />
       </div>
