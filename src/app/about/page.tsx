@@ -104,7 +104,7 @@ function About() {
         <div className="cards transition-transform duration-75 scale-100 hover:scale-105 ease-in-out">
           <Image
             className="image"
-            src="/atm.jfif"
+            src="/atm.jpg"
             alt="ATM"
             height={100}
             width={200}
@@ -127,7 +127,7 @@ function About() {
         <div className="cards transition-transform duration-75 scale-100 hover:scale-105 ease-in-out">
           <Image
             className="image"
-            src="/cal.jfif"
+            src="/cal.jpg"
             alt="Calculator"
             height={100}
             width={200}
