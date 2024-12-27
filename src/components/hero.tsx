@@ -13,7 +13,7 @@ export default function Hero() {
           <h1 className="heading">Hello, I am Sana Farasat</h1>
           <p className="para">
             a front-end developer, a back-end developer, a full stack
-            developer!! Currently learning Nextjs bu using Typescript and
+            developer!! Currently learning Nextjs by using Typescript and
             Tailwand css..
           </p>
         </div>

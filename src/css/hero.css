@@ -33,18 +33,17 @@ Image:hover {
 .content-div {
   height: 100%;
   width: 100%;
+  text-align: center;
 }
 .heading {
   color: yellow;
-  font-size: 4em;
-  text-align: left;
+  font-size: 3.5em;
   margin-top: 2%;
 }
 
 .para {
   color: #b00020;
   font-size: 2em;
-  text-align: left;
   font-weight: semi-bold;
 }
 
